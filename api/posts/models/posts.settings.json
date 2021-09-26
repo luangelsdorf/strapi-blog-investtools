@@ -28,9 +28,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "exerpt": {
-      "type": "text"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"

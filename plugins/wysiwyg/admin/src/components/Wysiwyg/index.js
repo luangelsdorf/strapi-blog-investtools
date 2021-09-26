@@ -33,7 +33,7 @@ const Wysiwyg = ({ inputDescription, error, label, name, onChange, value }) => {
     >
     <div style={{ position: 'absolute', right: '15px', top: '-10px' }}>
       <Button color="primary" onClick={handleToggle}>
-        MediaLib
+        Biblioteca de Mídia
       </Button>
     </div>
       <Label htmlFor={name} style={{ marginBottom: 10 }} >{label} </Label>
