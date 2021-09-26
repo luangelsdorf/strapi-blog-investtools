@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "body": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cover": {
       "model": "file",
@@ -25,7 +27,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "slug": {

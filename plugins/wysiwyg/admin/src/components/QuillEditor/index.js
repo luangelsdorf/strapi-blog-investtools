@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from 'prop-types';
-import ReactQuill from 'react-quill';
+import ReactQuill, { Quill } from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+
+let AlignStyle = Quill.import('attributors/style/align');
+Quill.register(AlignStyle, true);
  
 const Editor = ({ onChange, name, value }) => {
  
@@ -12,7 +15,7 @@ const Editor = ({ onChange, name, value }) => {
      ['bold', 'italic', 'underline','strike', 'blockquote'],
      [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
      ['link'],
-     ['clean']
+     [{ 'align': [] }]
    ],
  }
  

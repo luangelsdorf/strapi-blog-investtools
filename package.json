@@ -15,6 +15,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "knex": "0.21.18",
+    "quill-divider": "^0.1.0",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
