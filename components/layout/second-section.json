@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_second_sections",
+  "info": {
+    "name": "secondSection",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    }
+  }
+}

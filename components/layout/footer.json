@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "name": "footer",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "firstSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.first-section",
+      "required": true
+    }
+  }
+}

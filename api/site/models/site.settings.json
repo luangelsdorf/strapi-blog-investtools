@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "site",
+  "info": {
+    "name": "Rodape",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.first-section",
+      "required": true
+    },
+    "secondSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.second-section",
+      "required": true
+    },
+    "thirdSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.thrid-section",
+      "required": true
+    },
+    "copyright": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

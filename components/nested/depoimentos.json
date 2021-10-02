@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_depoimentos",
+  "info": {
+    "name": "testimonial-card",
+    "icon": "comment-dots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

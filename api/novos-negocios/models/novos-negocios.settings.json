@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "novos_negocios",
+  "info": {
+    "name": "Novos Negocios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "new-businesses.hero",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "new-businesses.about",
+      "required": true
+    },
+    "initiatives": {
+      "type": "component",
+      "repeatable": false,
+      "component": "new-businesses.initiatives",
+      "required": true
+    },
+    "businesses": {
+      "type": "component",
+      "repeatable": false,
+      "component": "new-businesses.businesses",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "new-businesses.call-to-action",
+      "required": true
+    }
+  }
+}

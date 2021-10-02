@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "name": "testimonials",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.depoimentos",
+      "required": true,
+      "min": 2
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_businesses_initiatives",
+  "info": {
+    "name": "initiatives",
+    "icon": "handshake"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

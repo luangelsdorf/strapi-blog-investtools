@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/arcon-it",
+      "handler": "arcon-it.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/arcon-it",
+      "handler": "arcon-it.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/arcon-it",
+      "handler": "arcon-it.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

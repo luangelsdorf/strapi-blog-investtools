@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dados-de-contato",
+      "handler": "dados-de-contato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dados-de-contato",
+      "handler": "dados-de-contato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dados-de-contato",
+      "handler": "dados-de-contato.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

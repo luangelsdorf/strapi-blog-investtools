@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_service_features",
+  "info": {
+    "name": "features",
+    "icon": "star-of-life"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

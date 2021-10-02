@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_first_sections",
+  "info": {
+    "name": "firstSection",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "socialsMsg": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

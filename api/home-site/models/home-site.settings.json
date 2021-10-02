@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_sites",
+  "info": {
+    "name": "Home - Site",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.hero",
+      "required": true,
+      "max": 3,
+      "min": 3
+    },
+    "Sobre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.sobre",
+      "required": true
+    },
+    "Clientes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.clientes",
+      "required": true
+    },
+    "Depoimentos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonials",
+      "required": true
+    }
+  }
+}

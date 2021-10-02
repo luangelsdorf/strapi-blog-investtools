@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_thrid_sections",
+  "info": {
+    "name": "thridSection",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

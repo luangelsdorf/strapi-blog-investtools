@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-site",
+      "handler": "home-site.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-site",
+      "handler": "home-site.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-site",
+      "handler": "home-site.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

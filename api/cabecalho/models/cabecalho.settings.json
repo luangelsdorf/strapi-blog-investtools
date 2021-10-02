@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "cabecalhos",
+  "info": {
+    "name": "Cabeçalho",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aInvesttools": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "performIt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "diligenceIt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "arconIt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "novosNegocios": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "careers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "novosNegociosLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link-button",
+      "required": true,
+      "min": 1
+    },
+    "blog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

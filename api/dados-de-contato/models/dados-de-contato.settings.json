@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "dados_de_contatoes",
+  "info": {
+    "name": "Dados de Contato",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "text",
+      "required": true
+    },
+    "linkedinLink": {
+      "type": "string",
+      "required": true
+    },
+    "instagramLink": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

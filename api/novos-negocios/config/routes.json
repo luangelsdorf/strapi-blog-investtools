@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/novos-negocios",
+      "handler": "novos-negocios.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/novos-negocios",
+      "handler": "novos-negocios.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/novos-negocios",
+      "handler": "novos-negocios.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

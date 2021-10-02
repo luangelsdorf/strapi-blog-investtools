@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/diligence-it",
+      "handler": "diligence-it.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/diligence-it",
+      "handler": "diligence-it.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/diligence-it",
+      "handler": "diligence-it.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

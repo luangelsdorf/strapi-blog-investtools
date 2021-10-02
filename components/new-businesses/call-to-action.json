@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_new_businesses_call_to_actions",
+  "info": {
+    "name": "callToAction",
+    "icon": "exclamation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    }
+  }
+}

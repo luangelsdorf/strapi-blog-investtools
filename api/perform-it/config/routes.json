@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perform-it",
+      "handler": "perform-it.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perform-it",
+      "handler": "perform-it.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perform-it",
+      "handler": "perform-it.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

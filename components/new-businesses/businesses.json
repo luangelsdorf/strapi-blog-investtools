@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_new_businesses_businesses",
+  "info": {
+    "name": "businesses",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "businesses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.business",
+      "required": true,
+      "min": 2
+    }
+  }
+}

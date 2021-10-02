@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "name": "header",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-image",
+      "required": true
+    },
+    "aInvesttools": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button"
+    },
+    "performIt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    }
+  }
+}

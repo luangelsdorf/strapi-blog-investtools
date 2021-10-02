@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cabecalho",
+      "handler": "cabecalho.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cabecalho",
+      "handler": "cabecalho.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cabecalho",
+      "handler": "cabecalho.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

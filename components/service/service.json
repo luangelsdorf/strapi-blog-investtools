@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_service_services",
+  "info": {
+    "name": "service",
+    "icon": "exchange-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "monitorImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true
+    },
+    "ctaImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.features",
+      "required": true,
+      "min": 2
+    },
+    "functions": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "service.functions",
+      "min": 2
+    }
+  }
+}

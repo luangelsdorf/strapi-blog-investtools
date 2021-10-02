@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "arcon_its",
+  "info": {
+    "name": "Arcon It"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arconIt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.service",
+      "required": true
+    }
+  }
+}
