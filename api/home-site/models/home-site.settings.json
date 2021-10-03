@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero": {
+    "hero": {
       "type": "component",
       "repeatable": true,
       "component": "home.hero",
@@ -20,19 +20,19 @@
       "max": 3,
       "min": 3
     },
-    "Sobre": {
+    "about": {
       "type": "component",
       "repeatable": false,
       "component": "home.sobre",
       "required": true
     },
-    "Clientes": {
+    "clients": {
       "type": "component",
       "repeatable": false,
       "component": "home.clientes",
       "required": true
     },
-    "Depoimentos": {
+    "testimonials": {
       "type": "component",
       "repeatable": false,
       "component": "home.testimonials",
