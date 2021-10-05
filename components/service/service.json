@@ -62,6 +62,10 @@
       "required": true,
       "component": "service.functions",
       "min": 2
+    },
+    "funcTitle": {
+      "type": "string",
+      "required": true
     }
   }
 }

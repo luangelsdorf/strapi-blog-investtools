@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_text_boxes",
+  "info": {
+    "name": "textBox",
+    "icon": "vector-square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

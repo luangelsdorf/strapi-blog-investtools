@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "a_investtools",
+  "info": {
+    "name": "A Investtools",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aInvesttools": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-box",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "history": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-box",
+      "required": true
+    },
+    "whyUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-box",
+      "required": true
+    },
+    "motivation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-box",
+      "required": true
+    }
+  }
+}
