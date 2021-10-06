@@ -37,6 +37,12 @@
       "repeatable": false,
       "component": "home.testimonials",
       "required": true
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.media",
+      "required": true
     }
   }
 }
