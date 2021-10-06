@@ -76,6 +76,12 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "press": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
     }
   }
 }
