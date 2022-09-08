@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "novos_negocios",
   "info": {
-    "name": "Novos Negocios"
+    "name": "Novos Negocios",
+    "description": ""
   },
   "options": {
     "increments": true,

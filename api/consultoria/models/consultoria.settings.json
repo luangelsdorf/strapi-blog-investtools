@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "consultorias",
+  "info": {
+    "name": "Consultoria",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.features",
+      "required": true
+    },
+    "functions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.functions",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.banner",
+      "required": true
+    },
+    "ctaImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

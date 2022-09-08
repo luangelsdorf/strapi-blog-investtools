@@ -9,7 +9,7 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "text": {
       "type": "text",
@@ -32,12 +32,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
-    },
-    "ctaLink": {
-      "type": "string",
-      "required": true
     },
     "ctaImage": {
       "model": "file",

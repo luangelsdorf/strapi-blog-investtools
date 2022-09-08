@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/consultoria",
+      "handler": "consultoria.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/consultoria",
+      "handler": "consultoria.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/consultoria",
+      "handler": "consultoria.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

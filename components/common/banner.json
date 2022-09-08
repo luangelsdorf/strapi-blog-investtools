@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_banners",
+  "info": {
+    "name": "banner",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "bannerText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-box"
+    },
+    "bannerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
