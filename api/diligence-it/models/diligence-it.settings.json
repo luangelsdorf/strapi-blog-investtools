@@ -2,20 +2,30 @@
   "kind": "singleType",
   "collectionName": "diligence_its",
   "info": {
-    "name": "Diligence It"
+    "name": "Diligence It",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "diligenceIt": {
       "type": "component",
       "repeatable": false,
       "component": "service.service",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

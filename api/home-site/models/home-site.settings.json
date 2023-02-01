@@ -10,7 +10,11 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "hero": {
       "type": "component",
@@ -18,31 +22,56 @@
       "component": "home.hero",
       "required": true,
       "max": 3,
-      "min": 3
+      "min": 3,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "about": {
       "type": "component",
       "repeatable": false,
       "component": "home.sobre",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "clients": {
       "type": "component",
       "repeatable": false,
       "component": "home.clientes",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "testimonials": {
       "type": "component",
       "repeatable": false,
       "component": "home.testimonials",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "media": {
       "type": "component",
       "repeatable": false,
       "component": "home.media",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

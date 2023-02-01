@@ -2,20 +2,30 @@
   "kind": "singleType",
   "collectionName": "perform_its",
   "info": {
-    "name": "Perform It"
+    "name": "Perform It",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "performIt": {
       "type": "component",
       "repeatable": false,
       "component": "service.service",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

@@ -10,62 +10,111 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "aInvesttools": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "performIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "diligenceIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "arconIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "novosNegocios": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "contact": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "careers": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "novosNegociosLinks": {
       "type": "component",
       "repeatable": true,
       "component": "common.link-button",
       "required": true,
-      "min": 1
+      "min": 1,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "blog": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "logo": {
       "model": "file",
@@ -75,7 +124,11 @@
       ],
       "plugin": "upload",
       "required": true,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

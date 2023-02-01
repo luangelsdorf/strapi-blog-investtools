@@ -2,20 +2,30 @@
   "kind": "singleType",
   "collectionName": "arcon_its",
   "info": {
-    "name": "Arcon It"
+    "name": "Arcon It",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "arconIt": {
       "type": "component",
       "repeatable": false,
       "component": "service.service",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
