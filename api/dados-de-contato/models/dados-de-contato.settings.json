@@ -69,6 +69,17 @@
           "localized": true
         }
       }
+    },
+    "formCode": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "component": "common.form-code"
     }
   }
 }

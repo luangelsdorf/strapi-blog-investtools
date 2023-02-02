@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_form_codes",
+  "info": {
+    "name": "FormCode",
+    "icon": "remove-format"
+  },
+  "options": {},
+  "attributes": {
+    "part1": {
+      "type": "string",
+      "required": true
+    },
+    "part2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
