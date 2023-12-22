@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "politica_de_cookies",
+  "info": {
+    "name": "Política de Cookies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
