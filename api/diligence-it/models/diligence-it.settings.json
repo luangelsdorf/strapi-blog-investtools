@@ -10,22 +10,14 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "diligenceIt": {
       "type": "component",
       "repeatable": false,
       "component": "service.service",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     }
   }
 }

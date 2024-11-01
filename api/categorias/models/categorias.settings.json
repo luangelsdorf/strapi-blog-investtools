@@ -10,20 +10,12 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "posts": {
       "via": "categories",

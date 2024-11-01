@@ -2,25 +2,18 @@
   "kind": "singleType",
   "collectionName": "politica_de_privacidades",
   "info": {
-    "name": "Política de Privacidade"
+    "name": "Política de Privacidade",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "richtext",
       "required": true
     }

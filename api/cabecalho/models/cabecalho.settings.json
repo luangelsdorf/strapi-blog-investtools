@@ -10,88 +10,56 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "aInvesttools": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "performIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "diligenceIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "arconIt": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "novosNegocios": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "contact": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "careers": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "novosNegociosLinks": {
       "type": "component",
@@ -99,22 +67,14 @@
       "component": "common.link-button",
       "required": true,
       "min": 1,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "blog": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-button",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "logo": {
       "model": "file",
@@ -124,20 +84,12 @@
       ],
       "plugin": "upload",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "consultancy": {
       "type": "component",
       "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "component": "common.link-button"
     }
   }

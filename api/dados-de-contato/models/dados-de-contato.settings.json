@@ -10,74 +10,42 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "phone": {
       "type": "string",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "location": {
       "type": "text",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "linkedinLink": {
       "type": "string",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "instagramLink": {
       "type": "string",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "message": {
       "type": "text",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "mapsLink": {
       "type": "string",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "formCode": {
       "type": "component",
       "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "required": true,
       "component": "common.form-code"
     }

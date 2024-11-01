@@ -10,22 +10,14 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "aInvesttools": {
       "type": "component",
       "repeatable": false,
       "component": "common.text-box",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "image": {
       "model": "file",
@@ -35,44 +27,28 @@
       ],
       "plugin": "upload",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "history": {
       "type": "component",
       "repeatable": false,
       "component": "common.text-box",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "whyUs": {
       "type": "component",
       "repeatable": false,
       "component": "common.text-box",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "motivation": {
       "type": "component",
       "repeatable": false,
       "component": "common.text-box",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     }
   }
 }

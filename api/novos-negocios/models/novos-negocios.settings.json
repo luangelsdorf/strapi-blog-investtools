@@ -10,66 +10,42 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "hero": {
       "type": "component",
       "repeatable": false,
       "component": "new-businesses.hero",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "about": {
       "type": "component",
       "repeatable": false,
       "component": "new-businesses.about",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "initiatives": {
       "type": "component",
       "repeatable": false,
       "component": "new-businesses.initiatives",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "businesses": {
       "type": "component",
       "repeatable": false,
       "component": "new-businesses.businesses",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "cta": {
       "type": "component",
       "repeatable": false,
       "component": "new-businesses.call-to-action",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     }
   }
 }
